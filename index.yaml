@@ -3,6 +3,40 @@ entries:
   job:
     - apiVersion: v2
       appVersion: 1.16.0
+      created: "2022-10-11T22:08:37.694710729Z"
+      description: Job that runs once or periodically on a specified schedule.
+      digest: 9837864b0211b6fc3e87d197ec2807e972bb6fc9b24378284470103dbd6074e5
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111258413-4e2c3800-85f3-11eb-8a6a-88e03460f8fe.png
+      keywords:
+        - porter
+        - cronjob
+        - application
+        - job
+      name: job
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/job/job-0.23.0.tgz
+      version: 0.23.0
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2022-10-10T20:42:17.311898165Z"
+      description: Job that runs once or periodically on a specified schedule.
+      digest: 0ea510ccbd8d40531cfec3d9dd4c57134d39b691b01ed6d13a6d0b3f20d8d481
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111258413-4e2c3800-85f3-11eb-8a6a-88e03460f8fe.png
+      keywords:
+        - porter
+        - cronjob
+        - application
+        - job
+      name: job
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/job/job-0.22.0.tgz
+      version: 0.22.0
+    - apiVersion: v2
+      appVersion: 1.16.0
       created: "2022-10-06T22:31:02.722592304Z"
       description: Job that runs once or periodically on a specified schedule.
       digest: 03cbba67c58e52a271faf408e1a5460af6b9bfac7b18bcb99671755b7ceb8b65
@@ -138,6 +172,57 @@ entries:
         - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/job/job-0.17.0.tgz
       version: 0.17.0
   web:
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2022-10-11T22:08:37.86719235Z"
+      description: Web application that is exposed to external traffic.
+      digest: 4cb8bc349ec63212c2f842c10d669d53190a5bafe37f752c375eafa413ad1c60
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255214-07d3da80-85ed-11eb-99e2-fddcbdb99bdb.png
+      keywords:
+        - porter
+        - application
+        - service
+        - web
+      name: web
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/web/web-0.59.0.tgz
+      version: 0.59.0
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2022-10-10T21:13:30.196291247Z"
+      description: Web application that is exposed to external traffic.
+      digest: 05088b2d29b4d01078c8f34286afb22eb18121f4e4ba37c921a3fb6727fc2b79
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255214-07d3da80-85ed-11eb-99e2-fddcbdb99bdb.png
+      keywords:
+        - porter
+        - application
+        - service
+        - web
+      name: web
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/web/web-0.58.1.tgz
+      version: 0.58.1
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2022-10-10T20:42:17.606315653Z"
+      description: Web application that is exposed to external traffic.
+      digest: 7607200056037e52a2a657c09859c53ea2eb9b8b1b7eece02163fe5f0ba39e0e
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255214-07d3da80-85ed-11eb-99e2-fddcbdb99bdb.png
+      keywords:
+        - porter
+        - application
+        - service
+        - web
+      name: web
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/web/web-0.58.0.tgz
+      version: 0.58.0
     - apiVersion: v2
       appVersion: 1.16.0
       created: "2022-10-06T22:19:01.708121655Z"
@@ -481,6 +566,23 @@ entries:
   worker:
     - apiVersion: v2
       appVersion: 1.16.0
+      created: "2022-10-11T22:08:38.030353936Z"
+      description: Background worker applications that are not exposed to external traffic.
+      digest: 0b74f655acba30ba8b3f07cd0eaad0a885854abd3f99aee23bcc34b566963a4f
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255250-1b7f4100-85ed-11eb-8bd1-7b17be3e0e06.png
+      keywords:
+        - application
+        - porter
+        - background-worker
+        - worker
+      name: worker
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.31.0.tgz
+      version: 0.31.0
+    - apiVersion: v2
+      appVersion: 1.16.0
       created: "2022-10-06T22:19:01.922033213Z"
       description: Background worker applications that are not exposed to external traffic.
       digest: 006fa6aa282e35d272108e12fa122cfb6b328f4d8b53655ebd980cced061f047
@@ -581,4 +683,4 @@ entries:
       urls:
         - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.26.0.tgz
       version: 0.26.0
-generated: "2022-10-06T22:31:02.722877809Z"
+generated: "2022-10-11T22:08:38.030600337Z"
