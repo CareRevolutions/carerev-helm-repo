@@ -208,6 +208,23 @@ entries:
   web:
     - apiVersion: v2
       appVersion: 1.16.0
+      created: "2022-11-30T03:30:47.342583283Z"
+      description: Web application that is exposed to external traffic.
+      digest: 3370f18553f290e6e142564e77881067e86c9dee671405d46dc022dd7d0faf5b
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255214-07d3da80-85ed-11eb-99e2-fddcbdb99bdb.png
+      keywords:
+        - porter
+        - application
+        - service
+        - web
+      name: web
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/web/web-0.63.4.tgz
+      version: 0.63.4
+    - apiVersion: v2
+      appVersion: 1.16.0
       created: "2022-11-30T02:56:53.624833069Z"
       description: Web application that is exposed to external traffic.
       digest: 305e61c9f62fa5d940d40b7112cbed859dc0c8a097d901b34fa277e5978955a0
@@ -736,6 +753,23 @@ entries:
   worker:
     - apiVersion: v2
       appVersion: 1.16.0
+      created: "2022-11-30T03:30:47.487185389Z"
+      description: Background worker applications that are not exposed to external traffic.
+      digest: 685fcaa6fe546bebfeb6a93a5d054128976529d5c955e66835fa2b4c1ca0696e
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255250-1b7f4100-85ed-11eb-8bd1-7b17be3e0e06.png
+      keywords:
+        - application
+        - porter
+        - background-worker
+        - worker
+      name: worker
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.35.4.tgz
+      version: 0.35.4
+    - apiVersion: v2
+      appVersion: 1.16.0
       created: "2022-11-30T02:56:53.995365689Z"
       description: Background worker applications that are not exposed to external traffic.
       digest: 1ed78bbbb8444922f286de6df4090d4f53d283cd5e946b2ae4caf1e7e744f1d1
@@ -989,4 +1023,4 @@ entries:
       urls:
         - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.26.0.tgz
       version: 0.26.0
-generated: "2022-11-30T02:56:53.99619429Z"
+generated: "2022-11-30T03:30:47.487615095Z"
