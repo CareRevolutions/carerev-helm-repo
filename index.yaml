@@ -242,6 +242,40 @@ entries:
   web:
     - apiVersion: v2
       appVersion: 1.16.0
+      created: "2023-01-11T22:27:57.553630856Z"
+      description: Web application that is exposed to external traffic.
+      digest: 5bc57a0f4ad82a12a4edb6a7b36b41919373feba27dde561e7dff676cf271cfe
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255214-07d3da80-85ed-11eb-99e2-fddcbdb99bdb.png
+      keywords:
+        - porter
+        - application
+        - service
+        - web
+      name: web
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/web/web-0.66.1.tgz
+      version: 0.66.1
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2023-01-11T22:17:16.589465403Z"
+      description: Web application that is exposed to external traffic.
+      digest: 6046d6a64b16c08906d267764d5f301b80ea9456fc90bd82177d1b556ddd125f
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111255214-07d3da80-85ed-11eb-99e2-fddcbdb99bdb.png
+      keywords:
+        - porter
+        - application
+        - service
+        - web
+      name: web
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/web/web-0.66.0.tgz
+      version: 0.66.0
+    - apiVersion: v2
+      appVersion: 1.16.0
       created: "2022-12-12T20:37:22.43298892Z"
       description: Web application that is exposed to external traffic.
       digest: 0ba7538c4c19f1d0585a81e4e9cc762ba9c06b8ba979ed707f0fd5f8a5e5d110
@@ -1108,4 +1142,4 @@ entries:
       urls:
         - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.26.0.tgz
       version: 0.26.0
-generated: "2023-01-11T22:17:16.590022876Z"
+generated: "2023-01-11T22:27:57.554054173Z"
