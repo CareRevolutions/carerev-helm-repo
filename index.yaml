@@ -1021,7 +1021,7 @@ entries:
       name: worker
       type: application
       urls:
-        - ttps://raw.githubusercontent.com/CareRevolutions/carerev-charts/gh-pages/worker/worker-0.40.0.tgz
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.40.0.tgz
       version: 0.40.0
     - apiVersion: v2
       appVersion: 1.16.0
