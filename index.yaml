@@ -3,6 +3,23 @@ entries:
   job:
     - apiVersion: v2
       appVersion: 1.16.0
+      created: "2023-03-08T18:18:44.76694893Z"
+      description: Job that runs once or periodically on a specified schedule.
+      digest: 410cfd542dd33f725fe65b8f09f7fc8b56178fb412d9f4efbc26e19f7c0c0318
+      home: https://getporter.dev/
+      icon: https://user-images.githubusercontent.com/65516095/111258413-4e2c3800-85f3-11eb-8a6a-88e03460f8fe.png
+      keywords:
+        - porter
+        - cronjob
+        - application
+        - job
+      name: job
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/job/job-0.27.0.tgz
+      version: 0.27.0
+    - apiVersion: v2
+      appVersion: 1.16.0
       created: "2023-01-20T23:21:40.248397807Z"
       description: Job that runs once or periodically on a specified schedule.
       digest: ce20dd5adb38debcd1bea4039395ab8990adbc6e4fad8f67616b624e31ed4682
@@ -1380,4 +1397,4 @@ entries:
       urls:
         - https://raw.githubusercontent.com/CareRevolutions/carerev-helm-repo/main/worker/worker-0.26.0.tgz
       version: 0.26.0
-generated: "2023-03-07T22:21:32.969404172Z"
+generated: "2023-03-08T18:18:44.767360249Z"
